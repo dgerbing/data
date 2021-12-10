@@ -1,9 +1,9 @@
 ﻿Name,Years,Gender,Dept,Salary,JobSat,Plan,Pre,Post
 "Ritchie, Darnell",7,M,ADMN,53788.26,med,1,82,92
 "Wu, James",,M,SALE,94494.58,low,1,62,74
+"Downs, Deborah",7,W,FINC,57139.90,high,2,90,86
 "Hoang, Binh",15,M,SALE,111074.86,low,3,96,97
 "Jones, Alissa",5,W,,53772.58,,1,65,62
-"Downs, Deborah",7,W,FINC,57139.90,high,2,90,86
 "Afshari, Anbar",6,W,ADMN,69441.93,high,2,100,100
 "Knox, Michael",18,M,MKTG,99062.66,med,3,81,84
 "Campagna, Justin",8,M,SALE,72321.36,low,1,76,84
