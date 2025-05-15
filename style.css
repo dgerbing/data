@@ -70,14 +70,8 @@ p.setoff {
   padding: 0.5em;
   margin-top: -1em;
 }
-
-ul {
-  margin-top: -0.5em;
-}
-
-ul li, ol li {
-  margin-bottom: 0em;
-}
+ul { list-style-type: none; margin-top: -1em; padding: 0; }
+li { margin: 0.25em 0; }
 
 span.time {
   font-size: .9em;
@@ -139,57 +133,27 @@ table tr:last-child td:last-child {
     border-bottom-right-radius: .50em;
 }
 
-a.rd {
+a {
   font-family: "Lucida Console", Courier, monospace;
   font-size: 1em;
   text-decoration: underline;
 }
-a.rd:link, a.rd:visited  {
+a:link, a:visited  {
   color: white;
   background-color: rgb(167,184,201);
   text-decoration: none;
-  padding: .2em .5em .3em .2em;
-  border-left: .8em solid rgb(177,143,160);
-  border-right: .15em solid rgb(177,143,160);
-  border-bottom: .15em solid rgb(177,143,160);
-  border-top: .15em solid rgb(177,143,160);
+
 }
-a.rd:hover {
+a:hover {
   color: white;
   background-color: rgb(177,143,160);
 }
-a.rd:link, a.rd:visited {
+a:link, a:visited {
   color: rgb(80, 80, 82);
   background-color: transparent;
 }
-a.rd:hover, a.rd:active {
+a:hover, a:active {
   color: rgb(245,242,245);
   background-color: rgb(80, 80, 82);
 }
-a.vd {
-  font-family: "Lucida Console", Courier, monospace;
-  font-size: 1em;
-  text-decoration: underline;
-}
-a.vd:link, a.vd:visited  {
-  color: white;
-  background-color: rgb(167,184,201);
-  text-decoration: none;
-  padding: .2em .5em .3em .2em;
-  border-left: .8em solid rgb(143,177,160);
-  border-right: .15em solid rgb(143,177,160);
-  border-bottom: .15em solid rgb(143,177,160);
-  border-top: .15em solid rgb(143,177,160);
-}
-a.vd:hover {
-  color: white;
-  background-color: rgb(143,177,160);
-}
-a.vd:link, a.vd:visited {
-  color: rgb(80, 80, 82);
-  background-color: transparent;
-}
-a.vd:hover, a.vd:active {
-  color: rgb(245,242,245);
-  background-color: rgb(80, 80, 82);
-}
+
