@@ -1,17 +1,195 @@
-style.css:
-
 body {
-  font-family: sans-serif;
-  background-color: #f9f9f9;
-  margin: 2rem;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: .97rem;
+  font-weight: 400;
+  background-color: #fcfcfc;
+  letter-spacing:.01rem;
+  line-height: 1.5rem;
 }
-h1 { color: #003366; }
-ul { list-style-type: none; padding: 0; }
-li { margin: 0.5em 0; }
-a {
-  text-decoration: none;
-  color: #0066cc;
+
+h1 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-family: Arial, sans-serif;
+  font-family: "MS Sans Serif", sans-serif;
+  font-size: 2.4em;
+  font-weight: 400;
+  line-height: 1.2;
 }
-a:hover {
+
+h2 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 1.52em;
+  color: rgb(0,117,154);
+  line-height: 1.3;
+  border-top: 3.5px solid rgb(220, 155, 50);
+  padding-top: 1.25em;
+}
+
+h3 {
+  margin-top: 1.5em;
+  margin-left: 1.25em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: bold;
+  font-size: 1.2em;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: rgb(0,117,154);
+}
+
+h4 {
+  margin-left: 1.25em;
+  color: rgb(0,117,154);
+  line-height:1.3;
+}
+
+p {
+  margin-left: 1.25em;
+}
+
+p.setoffTitle {
+  font-style: italic;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 4px solid black;
+  background-color: rgb(245,245,245);
+  padding: .5em 0em .5em 0em;
+  text-align: center;
+}
+
+p.setoff {
+  border: 1px solid black;
+  border-left: 4px solid black;
+  background-color: rgb(245,245,245);
+  padding: 0.5em;
+  margin-top: -1em;
+}
+
+ul {
+  margin-top: -0.5em;
+}
+
+ul li, ol li {
+  margin-bottom: 0em;
+}
+
+span.time {
+  font-size: .9em;
+}
+
+pre {
+  font-size: 12pt;
+}
+
+code {
+  font-size: 1.15em;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+table {
+  margin-left: 1.2em;
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 28em;
+}
+table tr td {
+    font-size: .9em;
+    border-top: .10em solid rgb(200,200,200);  /* inner horiz borders */
+    border-right: .10em solid rgb(200,200,200);  /* inner vertical borders */
+    padding: 0.35em;
+    background-color: rgb(245,242,245);
+}
+/* table outer borders */
+table tr td:first-child {
+    border-left: .10em solid rgb(40,40,40);
+}
+table tr td:last-child {
+    border-right: .10em solid rgb(40,40,40);
+}
+table tr:first-child td {
+  border-top: .10em solid rgb(40,40,40);
+}
+table tr:last-child td {
+    border-bottom: .10em solid rgb(40,40,40);
+}
+/* radius */
+table tr:first-child td:first-child {
+    border-top-left-radius: .50em;
+}
+table tr:first-child td:last-child {
+    border-top-right-radius: .50em;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: .50em;
+}
+table tr:last-child td:last-child {
+    border-bottom-right-radius: .50em;
+}
+
+a.rd {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 1em;
   text-decoration: underline;
+}
+a.rd:link, a.rd:visited  {
+  color: white;
+  background-color: rgb(167,184,201);
+  text-decoration: none;
+  padding: .2em .5em .3em .2em;
+  border-left: .8em solid rgb(177,143,160);
+  border-right: .15em solid rgb(177,143,160);
+  border-bottom: .15em solid rgb(177,143,160);
+  border-top: .15em solid rgb(177,143,160);
+}
+a.rd:hover {
+  color: white;
+  background-color: rgb(177,143,160);
+}
+a.rd:link, a.rd:visited {
+  color: rgb(80, 80, 82);
+  background-color: transparent;
+}
+a.rd:hover, a.rd:active {
+  color: rgb(245,242,245);
+  background-color: rgb(80, 80, 82);
+}
+a.vd {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 1em;
+  text-decoration: underline;
+}
+a.vd:link, a.vd:visited  {
+  color: white;
+  background-color: rgb(167,184,201);
+  text-decoration: none;
+  padding: .2em .5em .3em .2em;
+  border-left: .8em solid rgb(143,177,160);
+  border-right: .15em solid rgb(143,177,160);
+  border-bottom: .15em solid rgb(143,177,160);
+  border-top: .15em solid rgb(143,177,160);
+}
+a.vd:hover {
+  color: white;
+  background-color: rgb(143,177,160);
+}
+a.vd:link, a.vd:visited {
+  color: rgb(80, 80, 82);
+  background-color: transparent;
+}
+a.vd:hover, a.vd:active {
+  color: rgb(245,242,245);
+  background-color: rgb(80, 80, 82);
 }
